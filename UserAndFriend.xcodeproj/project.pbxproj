@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C6110A5128D5F3110004A23A /* CoreDataProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C6110A4F28D5F3110004A23A /* CoreDataProject.xcdatamodeld */; };
+		C6110A5328D5F3410004A23A /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6110A5228D5F3410004A23A /* DataController.swift */; };
 		C615FA1928CE079D00C5FB52 /* UserAndFriendApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C615FA1828CE079D00C5FB52 /* UserAndFriendApp.swift */; };
 		C615FA1B28CE079D00C5FB52 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C615FA1A28CE079D00C5FB52 /* ContentView.swift */; };
 		C615FA1D28CE079F00C5FB52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C615FA1C28CE079F00C5FB52 /* Assets.xcassets */; };
 		C615FA2028CE079F00C5FB52 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C615FA1F28CE079F00C5FB52 /* Preview Assets.xcassets */; };
+		C615FA2728CE095B00C5FB52 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = C615FA2628CE095B00C5FB52 /* Users.swift */; };
+		C615FA2928CE7E4E00C5FB52 /* UserFriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C615FA2828CE7E4E00C5FB52 /* UserFriendsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C6110A5028D5F3110004A23A /* CoreDataProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataProject.xcdatamodel; sourceTree = "<group>"; };
+		C6110A5228D5F3410004A23A /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		C615FA1528CE079D00C5FB52 /* UserAndFriend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserAndFriend.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C615FA1828CE079D00C5FB52 /* UserAndFriendApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAndFriendApp.swift; sourceTree = "<group>"; };
 		C615FA1A28CE079D00C5FB52 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C615FA1C28CE079F00C5FB52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C615FA1F28CE079F00C5FB52 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C615FA2628CE095B00C5FB52 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		C615FA2828CE7E4E00C5FB52 /* UserFriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFriendsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +63,10 @@
 				C615FA1A28CE079D00C5FB52 /* ContentView.swift */,
 				C615FA1C28CE079F00C5FB52 /* Assets.xcassets */,
 				C615FA1E28CE079F00C5FB52 /* Preview Content */,
+				C615FA2628CE095B00C5FB52 /* Users.swift */,
+				C615FA2828CE7E4E00C5FB52 /* UserFriendsView.swift */,
+				C6110A4F28D5F3110004A23A /* CoreDataProject.xcdatamodeld */,
+				C6110A5228D5F3410004A23A /* DataController.swift */,
 			);
 			path = UserAndFriend;
 			sourceTree = "<group>";
@@ -138,7 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C615FA1B28CE079D00C5FB52 /* ContentView.swift in Sources */,
+				C6110A5328D5F3410004A23A /* DataController.swift in Sources */,
+				C615FA2928CE7E4E00C5FB52 /* UserFriendsView.swift in Sources */,
+				C615FA2728CE095B00C5FB52 /* Users.swift in Sources */,
 				C615FA1928CE079D00C5FB52 /* UserAndFriendApp.swift in Sources */,
+				C6110A5128D5F3110004A23A /* CoreDataProject.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +355,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C6110A4F28D5F3110004A23A /* CoreDataProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C6110A5028D5F3110004A23A /* CoreDataProject.xcdatamodel */,
+			);
+			currentVersion = C6110A5028D5F3110004A23A /* CoreDataProject.xcdatamodel */;
+			path = CoreDataProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C615FA0D28CE079D00C5FB52 /* Project object */;
 }
