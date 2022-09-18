@@ -15,6 +15,10 @@
 		C615FA2028CE079F00C5FB52 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C615FA1F28CE079F00C5FB52 /* Preview Assets.xcassets */; };
 		C615FA2728CE095B00C5FB52 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = C615FA2628CE095B00C5FB52 /* Users.swift */; };
 		C615FA2928CE7E4E00C5FB52 /* UserFriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C615FA2828CE7E4E00C5FB52 /* UserFriendsView.swift */; };
+		C62C35D628D7446A003D29F6 /* CachedFriends+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62C35D228D7446A003D29F6 /* CachedFriends+CoreDataClass.swift */; };
+		C62C35D728D7446A003D29F6 /* CachedFriends+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62C35D328D7446A003D29F6 /* CachedFriends+CoreDataProperties.swift */; };
+		C62C35D828D7446A003D29F6 /* CachedUser+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62C35D428D7446A003D29F6 /* CachedUser+CoreDataClass.swift */; };
+		C62C35D928D7446A003D29F6 /* CachedUser+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62C35D528D7446A003D29F6 /* CachedUser+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +31,10 @@
 		C615FA1F28CE079F00C5FB52 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C615FA2628CE095B00C5FB52 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
 		C615FA2828CE7E4E00C5FB52 /* UserFriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFriendsView.swift; sourceTree = "<group>"; };
+		C62C35D228D7446A003D29F6 /* CachedFriends+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CachedFriends+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C62C35D328D7446A003D29F6 /* CachedFriends+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CachedFriends+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C62C35D428D7446A003D29F6 /* CachedUser+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CachedUser+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C62C35D528D7446A003D29F6 /* CachedUser+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CachedUser+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,10 @@
 		C615FA1728CE079D00C5FB52 /* UserAndFriend */ = {
 			isa = PBXGroup;
 			children = (
+				C62C35D228D7446A003D29F6 /* CachedFriends+CoreDataClass.swift */,
+				C62C35D328D7446A003D29F6 /* CachedFriends+CoreDataProperties.swift */,
+				C62C35D428D7446A003D29F6 /* CachedUser+CoreDataClass.swift */,
+				C62C35D528D7446A003D29F6 /* CachedUser+CoreDataProperties.swift */,
 				C615FA1828CE079D00C5FB52 /* UserAndFriendApp.swift */,
 				C615FA1A28CE079D00C5FB52 /* ContentView.swift */,
 				C615FA1C28CE079F00C5FB52 /* Assets.xcassets */,
@@ -149,12 +161,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C62C35D628D7446A003D29F6 /* CachedFriends+CoreDataClass.swift in Sources */,
 				C615FA1B28CE079D00C5FB52 /* ContentView.swift in Sources */,
+				C62C35D928D7446A003D29F6 /* CachedUser+CoreDataProperties.swift in Sources */,
 				C6110A5328D5F3410004A23A /* DataController.swift in Sources */,
 				C615FA2928CE7E4E00C5FB52 /* UserFriendsView.swift in Sources */,
+				C62C35D828D7446A003D29F6 /* CachedUser+CoreDataClass.swift in Sources */,
 				C615FA2728CE095B00C5FB52 /* Users.swift in Sources */,
 				C615FA1928CE079D00C5FB52 /* UserAndFriendApp.swift in Sources */,
 				C6110A5128D5F3110004A23A /* CoreDataProject.xcdatamodeld in Sources */,
+				C62C35D728D7446A003D29F6 /* CachedFriends+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
